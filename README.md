@@ -26,6 +26,18 @@
    npm run preview
    ```
 
+## GitHub Pages
+
+Після push у гілку `main` GitHub Actions автоматично збирає та деплоїть проєкт.
+
+**Налаштування:**
+1. У репо: **Settings** → **Pages**
+2. **Source:** GitHub Actions
+3. Зберегти зміни
+
+Додаток буде доступний за адресою:  
+`https://<username>.github.io/<repo-name>/`
+
 ## Стек
 
 - React + TypeScript
